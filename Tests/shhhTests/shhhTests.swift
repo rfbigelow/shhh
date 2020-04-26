@@ -2,7 +2,7 @@ import XCTest
 @testable import shhh
 
 final class shhhTests: XCTestCase {
-    func testMixedRadixCount() {
+    func testWhenGeneratingNTuples() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
