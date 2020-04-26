@@ -36,11 +36,16 @@ Generates all permutations of a given array of integers, in lexicographic order.
 
 ### Combinations
 
+"A combination of n things, taken t at a time, often called simply a t-combination of n things, is a way to select
+a subset of size t from a given set of size n." [1]
 
+Combinations are often used to model cases where the order of the selected objects does not matter.
 
 #### LexicographicCombinationGenerator
 
 Generates all t-combinations of a given array of integers, in lexicographic order.
 
+## References
 
+[1] "The Art of Computer Programming, Volume 4a: Combinatorial Algorithms, part 1", Donald E. Knuth, p. 355.
 
