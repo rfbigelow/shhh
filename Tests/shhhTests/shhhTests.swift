@@ -23,12 +23,21 @@ final class shhhTests: XCTestCase {
         print("\(generator.count) elements.")
     }
     
-    func testWhenGeneratingCombinations() {
+    func testWhenGeneratingCombinations_s_lessthanequalto_t() {
         let generator = LexicographicCombinationGenerator(n: 6, t: 3)
         XCTAssertEqual(20, generator.count)
         for c in generator {
             print(c)
         }
         print("\(generator.count) elements.")
+    }
+    
+    func testWhenGeneratingCombinations_s_greaterthan_t() {
+        let generator = LexicographicCombinationGenerator(n: 5, t: 2)
+        XCTAssertEqual(10, generator.count)
+        for c in generator {
+            print(c)
+        }
+        print ("\(generator.count) elements.")
     }
 }
