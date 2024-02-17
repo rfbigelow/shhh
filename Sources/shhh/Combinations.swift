@@ -38,7 +38,7 @@ struct LexicographicCombinationGenerator: Sequence, IteratorProtocol {
             return nil
         }
         
-        let result = Array(c[1...t].reversed())
+        let result = Array(c[1...t])
         
         j = 1
         while c[j] + 1 == c[j + 1] {
